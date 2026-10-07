@@ -960,7 +960,6 @@ private final class HintOverlayView: NSView {
     }
 }
 
-@available(macOS 26.0, *)
 private final class SearchHUDView: NSGlassEffectView {
     private let icon = NSImageView()
     private let searchLabel = NSTextField(labelWithString: "")
